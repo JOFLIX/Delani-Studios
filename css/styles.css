@@ -38,3 +38,28 @@ body{
   text-align: center;
   margin-top: 5%;
 }
+
+.services{
+  background-image:url("https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/62449109_426199168223348_635197647006728192_n.jpg?_nc_cat=104&_nc_ht=scontent.fmba3-1.fna&oh=70eaac975cc3acf15911a1b0801cd490&oe=5D534384");
+  height:200%;
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+  background-size: cover;
+}
+
+.mgn{
+  padding-top:10%;
+  margin: 10%;
+}
+
+.WhatWeDo{
+  text-align: center;
+  padding-top: 5%;
+  
+}
+
+.row{
+  padding-top: 3%;
+}
+
