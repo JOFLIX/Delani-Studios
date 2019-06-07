@@ -63,3 +63,14 @@ body{
   padding-top: 3%;
 }
 
+.portfolio{
+  text-align: center;
+  justify-content:space-around;
+  margin-top: 5%;
+
+}
+
+.contact{
+   background-image:url("https://delaniimaya.netlify.com/css/c_image.jpg")
+}
+
