@@ -1,0 +1,20 @@
+#head{
+  background-image:url("https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/62186821_426199251556673_7214900610322137088_n.jpg?_nc_cat=108&_nc_ht=scontent.fmba3-1.fna&oh=2371b8eb684f7fec99908dd284e3f734&oe=5D92D1EC");
+  height:800%;
+
+
+
+};
+
+#center{
+  text-align: center;
+};
+ .jumbotron{
+   text-align: center;
+   background-color: transparent;
+   color: white;
+ };
+ #logo{
+   padding-left: 50%;
+   background-color: grey;
+ }
