@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="mdb.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery-3.4.1.js"></script>
 
   <title>Delani-Studios</title>
 </head>
@@ -52,7 +53,8 @@
    <div class="WhatWeDo">
       <h2>WHAT WE DO</h2>
       <div class="row">
-        <div id="design" class="col-md-4 col-lg-4 col-sm-4 " onclick="myFunction()" ><img src="services_icons/design_icon.png" alt="" class="img1" >
+        <div id="design" class="col-md-4 col-lg-4 col-sm-4 " >
+          <img src="services_icons/design_icon.png" alt="" class="img1" >
         <h3>Design</h3>
         <p class="p1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
         Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
@@ -61,17 +63,19 @@
 
         
         
-        <div id="development" class="col-md-4 col-lg-4 col-sm-4 " onclick="myFunction()"><img src="services_icons/dev_icon.png" alt="" class="img2">
+        <div id="development" class="col-md-4 col-lg-4 col-sm-4 " >
+        <img src="services_icons/dev_icon.png" alt="" class="img2">
         <h3>Development</h3>
-        <p class="p1">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+        <p class="p2">All engineers are fluent in the latest enterprise, mobile and web development technologies.
         They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
         </p>
         </div>
         
 
-        <div id="productManagement" class="col-md-4 col-lg-4 col-sm-4 " onclick="myFunction()"><img src="services_icons/product_icon.png" alt="" class="img3">
+        <div id="productManagement" class="col-md-4 col-lg-4 col-sm-4 " >
+          <img class="img3" src="services_icons/product_icon.png" alt="" >
         <h3>Product Management</h3>
-        <p class="p1">
+        <p class="p3">
           Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
           This iterative process allows for changes as business requirements evolve.</p>
          </div>
@@ -82,18 +86,78 @@
     <div class="portfolio">
       <h2>PORTFOLIO</h2>
       <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-3"><img src="portfolio/work4.jpg" alt="work4"  class="img-fluid img-thumbnail"></div>
-        <div class="col-lg-3 col-md-3 col-sm-3"><img src="portfolio/work3.jpg" alt="work3"  class="img-fluid img-thumbnail"></div>
-        <div class="col-lg-3 col-md-3 col-sm-3"><img src="portfolio/work2.jpg" alt="work2"  class="img-fluid img-thumbnail"></div>
-        <div class="col-lg-3 col-md-3 col-sm-3"><img src="portfolio/work1.jpg" alt="work1"  class="img-fluid img-thumbnail"></div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div id="hoVer">
+          <img   src="portfolio/work4.jpg" alt="work4"  class="img-fluid img-thumbnail">
+          <div class="overlay">
+
+             <p>WORK FOUR</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div id="hoVer">
+          <img   src="portfolio/work3.jpg" alt="work3"  class="img-fluid img-thumbnail">
+          <div class="overlay">
+            <p>WORK THREE</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div id="hoVer">
+          <img   src="portfolio/work2.jpg" alt="work2"  class="img-fluid img-thumbnail">
+          <div class="overlay">
+            <p>WORK TWO</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div id="hoVer">
+          <img   src="portfolio/work1.jpg" alt="work1"  class="img-fluid img-thumbnail">
+          <div class="overlay">
+            <p>WORK ONE</p>
+          </div>
+        </div>
+        </div>
          
       </div>
 
       <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-3 "><img src="portfolio/work5.jpg" alt=""  class="img-fluid img-thumbnail"></div>
-          <div class="col-lg-3 col-md-3 col-sm-3 "><img src="portfolio/work6.jpg" alt=""  class="img-fluid img-thumbnail"></div>
-          <div class="col-lg-3 col-md-3 col-sm-3 "><img src="portfolio/work7.jpg" alt=""  class="img-fluid img-thumbnail"></div>
-          <div class="col-lg-3 col-md-3 col-sm-3 "><img src="portfolio/work8.jpg" alt=""  class="img-fluid img-thumbnail"></div>
+          <div class="col-lg-3 col-md-3 col-sm-3 ">
+            <div id="hoVer">
+            <img   src="portfolio/work5.jpg" alt=""  class="img-fluid img-thumbnail">
+            <div id="overlay">
+              <p>WORK FIVE</p>
+            </div>
+          </div>
+
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 ">
+            <div id="hoVer">
+            <img  src="portfolio/work6.jpg" alt=""  class="img-fluid img-thumbnail">
+            <div class="overlay">
+
+              <p>WORK SIX</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 ">
+            <div id="hoVer">
+            <img   src="portfolio/work7.jpg" alt=""  class="img-fluid img-thumbnail">
+            <div  class="overlay">
+              <p>WORK SEVEN</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 ">
+            <div id="hoVer">
+            <img   src="portfolio/work8.jpg" alt=""  class="img-fluid img-thumbnail">
+            <div class="overlay">
+              <p>WORK EIGHT</p>
+            </div>
+          </div>
+
+          </div>
            
       </div>
 
@@ -110,7 +174,7 @@
                   <textarea style="background-color:transparent"  name="comments" placeholder="Your message here...." id="id_number" rows="10" cols="53" wrap="physical"  spellcheck="false"> 
             </textarea>
               </div>
-              <button><input type="submit sutton" name="">Send</button>
+              <button><input id="input1" type="submit sutton" name="">Send</button>
            </form>
       </div>
     </div>
@@ -139,7 +203,7 @@
  </div>
 </div>
   <script src="js/scripts.js"></script>
-  <script src="js/jquery-3.4.1.js"></script>
+  
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script type="text/javascript" src="js/mdb.js"></script>
   
