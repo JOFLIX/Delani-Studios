@@ -71,6 +71,7 @@ body{
    text-align:center;
    margin-top: 5%;
    background-size:cover;
+   color: white;
    
    
 }
@@ -91,4 +92,29 @@ body{
 
 .delani{
   text-align:center;
+}
+
+.p1, .p2 , .p3 {
+  display:none;
+}
+
+#display{
+  boder:2px double grey;
+  display: none;
+}
+
+#line{
+  height: 50px;
+  border: 3px solid white;
+  color:white;
+}
+
+.overlay{
+  margin:10px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.verlay:hover img {
+  transform: ;
 }
