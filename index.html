@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" href="logo/logo.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="mdb.css">
   <link rel="stylesheet" href="css/bootstrap.css">
 
   <title>Delani-Studios</title>
@@ -23,7 +24,8 @@
             <h1>WELCOME</h1>
             <h1>TO DELANI STUDIO</h1>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN AND AMAZING ENVIRONMENT</p>
-            <img src="assets/mouse_click.png" alt="image for clicking">
+            <br><br>
+            <img src="assets/mouse_click.png" alt="image for clicking" class="mouse animated heartBeat infinite">
           </div>
         </div>
       </div>
@@ -50,10 +52,29 @@
    <div class="WhatWeDo">
       <h2>WHAT WE DO</h2>
       <div class="row">
-        <div class="col-md-4 col-lg-4 col-sm-4"><img src="services_icons/design_icon.png" alt=""></div>
-        <div class="col-md-4 col-lg-4 col-sm-4"><img src="services_icons/dev_icon.png" alt=""></div>
-        <div class="col-md-4 col-lg-4 col-sm-4"><img src="services_icons/product_icon.png" alt=""></div>
+        <div id="design" class="col-md-4 col-lg-4 col-sm-4 " onclick="myFunction()" ><img src="services_icons/design_icon.png" alt="" class="img1" >
+        <h3>Design</h3>
+        <p class="p1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+        </p>
+        </div>
 
+        
+        
+        <div id="development" class="col-md-4 col-lg-4 col-sm-4 " onclick="myFunction()"><img src="services_icons/dev_icon.png" alt="" class="img2">
+        <h3>Development</h3>
+        <p class="p1">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+        They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+        </p>
+        </div>
+        
+
+        <div id="productManagement" class="col-md-4 col-lg-4 col-sm-4 " onclick="myFunction()"><img src="services_icons/product_icon.png" alt="" class="img3">
+        <h3>Product Management</h3>
+        <p class="p1">
+          Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+          This iterative process allows for changes as business requirements evolve.</p>
+         </div>
       </div>
 
     </div>
@@ -74,27 +95,54 @@
           <div class="col-lg-3 col-md-3 col-sm-3 "><img src="portfolio/work7.jpg" alt=""  class="img-fluid img-thumbnail"></div>
           <div class="col-lg-3 col-md-3 col-sm-3 "><img src="portfolio/work8.jpg" alt=""  class="img-fluid img-thumbnail"></div>
            
-        </div>
+      </div>
 
     </div>
-     
-    <div class="contact">
+     <div class="card-body">
+           <div class="contact">
       <h2>CONTACT US</h2>
-      <form action="joflixooko@outlook.com">
-         <input type="text" name="Name....">
-
-      </form>
-
+      <div class="card-body">
+      <div class="form-inline">
+          <form action="joflixooko@outlook.com">
+            
+            <input style="background-color:transparent"  cols="50" type="text" name="name" placeholder="Name" value="">  <input style="background-color:transparent" cols="80" type="email" id="email" pattern=".+@ .+.com" size="30" required placeholder="Email" value="" >
+            <div class="text">
+                  <textarea style="background-color:transparent"  name="comments" placeholder="Your message here...." id="id_number" rows="10" cols="53" wrap="physical"  spellcheck="false"> 
+            </textarea>
+              </div>
+              <button><input type="submit sutton" name="">Send</button>
+           </form>
+      </div>
     </div>
+     </div>
+    </div>   
+</div>
+ <div class="card-footer">
+  <div id="row">
+    <img src="social_icons/twitter.png" alt="twitter"  class="img-fluid img-thumbnail">
+    <img src="social_icons/dribble.png" alt="dribble"  class="img-fluid img-thumbnail">
+    <img src="social_icons/facebook.png" alt="facebook"  class="img-fluid img-thumbnail">
+    <img src="social_icons/g_plus.png" alt="g_plus"  class="img-fluid img-thumbnail">
+    <img src="social_icons/skype.png" alt="skype"  class="img-fluid img-thumbnail">
+    <img src="social_icons/stumble_upon.png" alt="stumble_upon"  class="img-fluid img-thumbnail">
+    <img src="social_icons/behance.png" alt="behance"  class="img-fluid img-thumbnail">
+    <img src="social_icons/flickr.png" alt="flickr"  class="img-fluid img-thumbnail">
 
-      
-    
   </div>
+   <div class="delani">
+    <h4>DELANI STUDIO</h4>
+    <p>2019</p>
 
-  </div>
-  <script type="text/javascript" src="js/Jquerry-library.js"></script>
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   </div>
+
+   </script>
+ </div>
+</div>
+  <script src="js/scripts.js"></script>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script type="text/javascript" src="js/mdb.js"></script>
+  
 </body>
 
 </html>
