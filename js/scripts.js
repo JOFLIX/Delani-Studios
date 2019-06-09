@@ -14,8 +14,17 @@ $(document).ready(function() {
     $(this).children(".overlay").fadeToggle(1000, "linear");
     $(this).toggle(html("WORK"))
     $(".tExt").toggle();
-    $(".tExt").show();
+    $('.line').showToggle();
+
+   
  });
+
+  $('.line').hover(function(){
+  	$(this).animate({
+  		opacity: '0'
+  	})
+  })
+
 
 
   $("button").click(function(event) {
@@ -23,6 +32,9 @@ $(document).ready(function() {
     var user = document.getElementById('input1').value;
     alert(user + "Hi! we've received your message, thank you for getting in touch with us");
   });
+
+
+
 });
 
 
