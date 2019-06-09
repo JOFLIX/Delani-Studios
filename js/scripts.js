@@ -10,14 +10,18 @@ $(document).ready(function() {
     $(".p3, .img3").slideToggle(3000);
   });
 
-  $('#hoveR').hover(function() {
+  $('#hoVer').hover(function() {
     $(this).children(".overlay").fadeToggle(1000, "linear");
+    $(this).toggle(html("WORK"))
+    $(".tExt").toggle();
+    $(".tExt").show();
  });
+
 
   $("button").click(function(event) {
     event.preventDefault();
     var user = document.getElementById('input1').value;
-    alert(user + " we've received your message, thank you for getting in touch with us");
+    alert(user + "Hi! we've received your message, thank you for getting in touch with us");
   });
 });
 
