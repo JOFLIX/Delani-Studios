@@ -31,6 +31,21 @@ $(document).ready(function() {
     event.preventDefault();
     var user = document.getElementById('input1').value;
     alert(user + "Hi! we've received your message, thank you for getting in touch with us");
+    const Mailchimp = require('d88565b7ea190dd855cccebdc8baa');
+
+const mailchimp = new Mailchimp(myMailchimpAPI);
+
+     mailchimp.post(`/lists/${myListId}/members`, {
+     email_address: 'jack@example.com',
+      status: 'subscribed',
+    merge_fields: {
+    FNAME: 'Joflix',
+    EMAIL: 'joflixooko@outlook.com',
+    COMPANY: 'Greenhomed Health $ Wellness'
+  }
+})
+.then(res => console.log(res))
+.catch(err => console.log(err))
   });
 
 
