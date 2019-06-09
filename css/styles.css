@@ -99,7 +99,7 @@ body{
 }
 
 #display{
-  boder:2px double grey;
+  boder:2px  grey;
   display: none;
 }
 
@@ -109,12 +109,32 @@ body{
   color:white;
 }
 
-.overlay{
+#hoVer{
   margin:10px 0;
   position: relative;
   overflow: hidden;
 }
 
-.verlay:hover img {
-  transform: ;
+#hoVer:hover img {
+  transform: scale(1.2) ;
+  transition: all 0.3s ease;
+  opacity: 0%;
+  color: white;
+}
+
+.icon:hover{
+
+   border: green;
+
+}
+
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: transparent;
+  cursor: pointer;
+  display: none;
+  transition: all 0.5s ease;
 }
