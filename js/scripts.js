@@ -12,12 +12,22 @@ $(document).ready(function() {
 
   $('#hoVer').hover(function() {
     $(this).children(".overlay").fadeToggle(1000, "linear");
-    $(this).toggle(html("WORK"))
+    $(this).toggle(css('.'))
     $(".tExt").toggle();
     $('.line').showToggle();
 
    
- });
+});
+$('.line').hover(function() {
+  $(this).animate({
+    opacity: '1'
+  });
+},
+function() {
+  $(this).animate({
+    opacity: '0'
+  });
+});
 
   $('.line').hover(function(){
   	$(this).animate({
