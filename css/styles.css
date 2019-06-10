@@ -7,10 +7,15 @@
   background-size:100% 100%;
   text-align: center;
   background-size:cover;
+  font-family:'Satisfy', 'Sacramento', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
+h1,h2,h3,h4,h5,h6 {font-family: 'Cinzel Decorative', cursive;}
 
+p{
+  font-family:'Kaushan', 'Script'
+}
  #logo{
    display: block;
    float: right;
@@ -80,8 +85,14 @@ body{
   padding-left: 30%;
 }
 
-.text{
-  padding-top:5%;
+.tExt{
+  padding-top:50%;
+  color: wheat;
+  font-size: x-large;
+  font-weight: 800;
+  /* border: 5px solid wheat;
+  height:25%;
+  text-align: center; */
   
 }
 
@@ -103,10 +114,18 @@ body{
   display: none;
 }
 
-#line{
-  height: 50px;
-  border: 3px solid white;
-  color:white;
+.line{
+  background-color: rgba(250, 250, 250, 0.6);
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  margin-top: -84%;
+  opacity: 0;
+  text-align:center;
+}
+
+.line{
+  margin-top: -90%;
 }
 
 #hoVer{
@@ -117,24 +136,37 @@ body{
 
 #hoVer:hover img {
   transform: scale(1.2) ;
-  transition: all 0.3s ease;
-  opacity: 0%;
-  color: white;
+  transition: all 0.8s ease;
+  opacity: 80%;
+  background-color:grey;
+  border: 5px solid black;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
 }
 
-.icon:hover{
-
-   border: green;
-
+.icon:hover png{
+  transform:scale3d(1.2);
+  transition:all 1s;
+  border: green;
+  -webkit-transform:scale3d(1.2);
+  -moz-transform:scale3d(1.2);
+  -ms-transform:scale3d(1.2);
+  -o-transform:scale3d(1.2);
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -ms-transition:all 1s;
+  -o-transition:all 1s;
 }
 
 
-.overlay{
+overlay{
   position: absolute;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   background: transparent;
   cursor: pointer;
-  display: none;
+  
   transition: all 0.5s ease;
 }
